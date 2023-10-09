@@ -11,7 +11,7 @@ export default class Contact extends Component{
                 <div id="contact">"Contact us for inquiries, support, or collaboration opportunities. We're here to assist you. Reach out today for assistance."</div>
                 <div id="phone">
                     <img src={whatsapp}/>
-                    <p>+91 9319069767</p>
+                    <a href="https://wa.me/9319069767"><p>+91 9319069767</p></a>
                 </div>
                 <div id="linkedin">
                     <img src={linkedin}/>
