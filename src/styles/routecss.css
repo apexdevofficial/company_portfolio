@@ -1,0 +1,158 @@
+center{
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+
+ul li{
+    text-decoration: underline;
+}
+
+.about-content{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    height: 80vh;
+    width: 50%;
+    right: 5%;
+    padding-top: 10%;
+}
+
+.about-content p{
+    font-size: 1rem;
+}
+
+.service-content{
+    position: fixed;
+    height: 80vh;
+    width: 50%;
+    right: 5%;
+    padding-top: 5%;
+}
+
+/* Project Page */
+
+.project-content{
+    margin-top: 20px;
+}
+
+.project-content center{
+    margin-bottom: 40px;
+}
+
+.web-image{
+    display: flex;
+    margin-top: 10px;
+}
+
+.desc h2{
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+.imag{
+    width: 50%;
+    height: 40%;
+}
+
+.imag img{
+    width: 70%;
+}
+
+.desc{
+    width: 50%;
+    height: 40%;
+}
+
+.project-app{
+    display: flex;
+    margin: 10px;
+}
+
+.project-app img{
+    width: 200px;
+    height: 400px;
+}
+
+@media only screen and (max-width: 1000px) {
+    /* center{
+        display: none;
+    } */
+
+    .project-content{
+        margin-top: 20%;
+    }
+}
+
+/* Contact Section */
+#contact-us{
+    margin-top: 20vh;
+}
+
+#contact{
+    display: flex;
+    justify-content: center;
+    margin: 0px 10px;
+}
+
+#phone{
+    display: flex;
+    justify-content: center;
+}
+
+#phone p{
+    font-size: 1.5rem;
+}
+
+#linkedin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#linkedin a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+}
+
+@media only screen and (max-width: 700px){
+    .about-content{
+        margin-top: 20vh;
+        width: 90%;
+        right: 0%;
+        margin-left: 8px;
+        padding-right: 8px;
+    }
+    .service-content{
+        margin-top: 20vh;
+        width: 100%;
+        right: 0%;
+        margin-left: 2px;
+        padding-right: 8px;
+    }
+
+    /* Project Page */
+    .project-content{
+        margin-top: 20vh;
+    }
+    .web-image{
+        flex-direction: column;
+    }
+    .web-image div{
+        align-items: center;
+    }
+    .imag{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .imag img{
+        width: 100%;
+    }
+    .desc{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
