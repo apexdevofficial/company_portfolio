@@ -99,11 +99,6 @@ ul li{
     justify-content: center;
 }
 
-#phone a{
-    text-decoration: none;
-    color: white;
-}
-
 #phone p{
     font-size: 1.5rem;
 }
