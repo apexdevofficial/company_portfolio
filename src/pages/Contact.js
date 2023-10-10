@@ -8,7 +8,7 @@ export default class Contact extends Component{
         return <>
             <div id="contact-us">
                 <center>Contact Us</center>
-                <div id="contact">"Contact us for inquiries, support, or collaboration opportunities. We're here to assist you. Reach out today for assistance."</div>
+                <div id="contact"> "Contact us for inquiries, support, or collaboration opportunities. We're here to assist you. Reach out today for assistance." </div>
                 <div id="phone">
                     <img src={whatsapp}/>
                     <p>+91 9319069767</p>
